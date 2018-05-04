@@ -20,7 +20,7 @@ namespace StockApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {   
-            
+            //add source control
             Series price = new Series("price");
             chart1.Series.Add(price);
 
